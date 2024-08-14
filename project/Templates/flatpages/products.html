@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{% extends 'flatpages/default.html' %}
+{% block title %}
+Products
+{% endblock title %}</title>
+</head>
+<body>
+{% block content %}
+<h1>Все товары</h1>
+{{ products }}
+{% endblock content %}
+</body>
+</html>
